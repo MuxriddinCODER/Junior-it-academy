@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson-11</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px;
+        }
+        .car {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 20px;
+        }
+        .car img {
+            max-width: 100%;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .car h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .car p {
+            margin: 0;
+            font-size: 0.9em;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="car">
+            <img src="gelik.jpg" alt="Mers Gelik">
+            <h3>Mers Gelik</h3>
+            <p>Mersedes-Benz G-class yuqori darajadagi off-road imkoniyatlari bilan mashhur.</p>
+            <p>Ushbu model kuchli dvigatel va zamonaviy dizaynga ega.</p>
+        </div>
+        <div class="car">
+            <img src="bugatti.jpg" alt="Bugatti Chiron">
+            <h3>Bugatti Chiron</h3>
+            <p>Bugatti Chiron dunyodagi eng tezkor va qimmat sport avtomobillaridan biridir.</p>
+            <p>U 1500 ot kuchiga ega dvigatel bilan jihozlangan.</p>
+        </div>
+        <div class="car">
+            <img src="supra.jpg" alt="Toyota Supra">
+            <h3>Toyota Supra</h3>
+            <p>Toyota Supra afsonaviy sport avtomobili bo'lib, yuqori tezlikka ega.</p>
+            <p>Ushbu model o'zining ajoyib boshqaruvi va dinamikasi bilan tanilgan.</p>
+        </div>
+        <div class="car">
+            <img src="formula.jpg" alt="Formula 1">
+            <h3>Formula 1</h3>
+            <p>Formula 1 poygasi uchun mo'ljallangan yuqori texnologiyali avtomobil.</p>
+            <p>Ushbu avtomobil yuqori tezlik va manevrlilikka ega.</p>
+        </div>
+    </div>
+</body>
+</html>
