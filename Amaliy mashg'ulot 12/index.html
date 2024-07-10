@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="reservation-form" action="https://echo.htmlacademy.ru/courses">
+            <h2>Reservation Form</h2>
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+
+            <label for="room-type">Room Type</label>
+            <select id="room-type" name="room-type">
+                <option value="" disabled selected>Select</option>
+                <option value="Bir xonali">Bir xonali</option>
+                <option value="Ikki xonali">Ikki xonali</option>
+                <option value="Uch xonali">Uch xonali</option>
+            </select>
+
+            <label for="arrival-date">Arrival Date *</label>
+            <input type="date" id="arrival-date" name="arrival-date" required>
+
+            <label for="departure-date">Departure Date *</label>
+            <input type="date" id="departure-date" name="departure-date" required>
+
+            <label for="number-of-guests">Number of Guests *</label>
+            <select id="number-of-guests" name="number-of-guests" required>
+                <option value="" disabled selected>Select</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+
+            <label>Free Pickup</label>
+            <div class="radio-group">
+                <input type="radio" id="pickup-yes" name="pickup" value="yes">
+                <label for="pickup-yes">Yes</label>
+                <input type="radio" id="pickup-no" name="pickup" value="no">
+                <label for="pickup-no">No</label>
+            </div>
+
+            <label for="flight-number">Flight Number</label>
+            <input type="text" id="flight-number" name="flight-number" placeholder="Flight Number" required>
+
+            <label for="special-requests">Special Requests</label>
+            <textarea id="special-requests" name="special-requests" placeholder="Type Here" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
