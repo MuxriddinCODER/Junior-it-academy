@@ -1,0 +1,14 @@
+.first__image {
+    background-image: url(https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp);
+    height: 500px;
+}
+
+.second__image {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU54V0Y0yUOh9aOyT_IfODxzRkbhqvvYUTpw&s);
+    height: 200px;
+}
+
+.thrid__image {
+    background-image: url(https://research.qut.edu.au/centre-for-justice/wp-content/uploads/sites/304/2023/06/Andrew-Tate-300x300.jpg);
+    height: 300px;
+}
