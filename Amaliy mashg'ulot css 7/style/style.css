@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.block {
+    margin: 200px auto;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 10px solid aqua;
+    border-radius: 18px;
+    background-color: brown;
+    flex: 1 1 30%;
+    margin: 10px; 
+}
+
+.second {
+    border-style: dotted;
+}
+
+.third {
+    border-style: dashed;
+}
+
+.fourth {
+    border-style: double;
+}
+
+.fifth {
+    border-style: groove;
+}
+
+.sixth {
+    border-style: ridge;
+}
+
+.seventh {
+    border-style: inset;
+}
+
+.eighth {
+    border-style: outset;
+}
