@@ -1,0 +1,21 @@
+.block {
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    margin: 250px auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #ff0000;
+    border-radius: 50%;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
