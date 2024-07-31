@@ -1,0 +1,31 @@
+.baseline {
+    vertical-align: baseline;
+}
+.sub {
+    vertical-align: sub;
+}
+.text-top {
+    vertical-align: text-top;
+}
+.text-bottom {
+    vertical-align: text-bottom;
+}
+.middle {
+    vertical-align: middle;
+}
+.top {
+    vertical-align: top;
+}
+.bottom {
+    vertical-align: bottom;
+}
+.percentage {
+    vertical-align: 50%;
+}
+.length {
+    vertical-align: 10px;
+}
+.block {
+    font-size: 16px;
+    line-height: 1.5;
+}
