@@ -1,0 +1,5 @@
+h1 {
+    text-decoration: line-through underline overline double 5px red;
+    font-size: 100px;
+    margin: 250px;
+}
