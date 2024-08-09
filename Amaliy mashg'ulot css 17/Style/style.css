@@ -1,0 +1,15 @@
+.block {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: rgb(107, 107, 202);
+}
+
+.container {
+    display: table;
+    background: blue;
+}
+
+.container__flex {
+    display: flex;
+}
