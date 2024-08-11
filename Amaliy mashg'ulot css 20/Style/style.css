@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    gap: 20px;
+    width: 1300px;
+    height: 200px;
+    background-color: bisque;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.top {
+    align-self: flex-start;
+}
+
+.center {
+    align-self: center;
+}
+
+.bottom {
+    align-self: flex-end;
+}
