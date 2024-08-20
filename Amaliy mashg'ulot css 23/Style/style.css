@@ -1,0 +1,11 @@
+.block {
+    width: 80%;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+}
