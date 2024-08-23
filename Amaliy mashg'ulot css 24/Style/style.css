@@ -1,0 +1,36 @@
+button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.fade:hover {
+    background-color: blue;
+}
+
+.back-pulse:hover {
+    transform: scale(1.2);
+}
+
+.sweep-right:hover {
+    transform:scaleX(1.2);
+}
+
+.sweep-left:hover {
+    transform:scaleY(1.2);
+}
