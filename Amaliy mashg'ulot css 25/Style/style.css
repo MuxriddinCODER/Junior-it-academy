@@ -1,0 +1,27 @@
+.block {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 220px;
+    height: 220px;
+    background-color: #353535;
+    color: white;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin: 0 auto; 
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+
+.block:hover {
+    background-image: url(../moon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.first {
+    padding: 110px 0 0 20px;
+    font-size: 28px;
+}
+
+span{
+    font-size: 15px;
+}
