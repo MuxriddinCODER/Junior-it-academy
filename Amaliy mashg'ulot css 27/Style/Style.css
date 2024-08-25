@@ -1,0 +1,73 @@
+:root {
+    --text: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    margin: 100px auto;
+}
+
+h1 {
+    font-family: var(--text);
+    color: gray;
+    text-align: center;
+    /* margin-top: 100px; */
+}
+
+.intro--text {
+    font-family: var(--text);
+    color: gray;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.call--button {
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+
+.second--button {
+    width: 130px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: gray;
+    border: none;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.blocks {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #F8F9FA;
+}
+
+.block {
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    width: 350px;
+}
+
+img {
+    width: 350px;
+}
+
+.block--intro {
+    font-family: var(--text);
+    font-size: 16px;
+    width: 300px;
+    color: gray;
+    text-align: center;
+    margin: 15px auto;
+    line-height: 1.3;
+}
+
