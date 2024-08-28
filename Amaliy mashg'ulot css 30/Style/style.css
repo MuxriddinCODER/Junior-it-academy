@@ -1,0 +1,74 @@
+.head {
+    width: 70px;
+    height: 70px;
+    background-color: gray;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.figure {
+    display: flex;
+    gap: 7px;
+}
+
+.body {
+    width: 70px;
+    height: 100px;
+    background-color: gray;
+    border: none;
+    margin-right: 25px;
+}
+
+.left-arm {
+    width: 20px;
+    height: 70px;
+    background-color: gray;
+    border: none;
+    margin-right:15px ;
+    transform: rotate(30deg);
+}
+
+.right-arm {
+    width: 20px;
+    height: 70px;
+    background-color: gray;
+    border: none;
+    margin-right:15px ;
+    margin-top: -20px;
+    transform: rotate(80deg);
+}
+
+.right-arm2 {
+    width: 20px;
+    height: 70px;
+    background-color: gray;
+    border: none;
+    margin-left: 15px;
+    margin-top: -50px;
+    transform: rotate(10deg);
+}
+
+.legs {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    margin-left: 39px;
+}
+
+.left-leg {
+    width: 30px;
+    height: 100px;
+    background-color: gray;
+    border: none;
+    transform: rotate(5deg);
+}
+
+.right-leg {
+    width: 30px;
+    height: 100px;
+    background-color: gray;
+    border: none;
+    transform: rotate(170deg);
+}
