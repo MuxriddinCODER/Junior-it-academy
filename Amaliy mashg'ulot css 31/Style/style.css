@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    width: 206px;
+    height: 190px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+.first--box {
+    width: 100px;
+    height: 100px;
+    border: solid 2px #FFF;
+    background: #D3D3D3;
+    position: absolute;
+    top: 43px;
+    transform: skew(180deg, 210deg);
+}
+
+.second--box {
+    width: 100px;
+    height: 100px;
+    background: #808080;
+    border: solid 2px #FFF;
+    position: absolute;
+    top: 43px;
+    left: 102px;
+    transform: skew(180deg, 150deg);
+}
+
+.third--box {
+    width: 114px;
+    height: 100px;
+    background: #A9A9A9;
+    position: absolute;
+    top: -32px;
+    left: 0px;
+    border: solid 2px #FFF;
+    transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
+}
