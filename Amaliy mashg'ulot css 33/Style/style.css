@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.moon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    animation: rotate 5s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        top: 0;
+        left: 0;
+        transform: rotate(0);
+    }
+    25% {
+        top: 0;
+        left: 90%; 
+        transform: rotate(50deg);
+    }
+    50% {
+        top: 100px;
+        left: 90%;
+        transform: rotate(100deg);
+    }
+    75% {
+        top: 100px;
+        left: 0;
+        transform: rotate(150deg);
+    }
+    100% {
+        top: 0;
+        left: 0;
+        transform: rotate(180deg);
+    }
+}
