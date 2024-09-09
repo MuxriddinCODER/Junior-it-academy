@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto; 
+    width: 1264px;
+    height: 950px;
+    /* border: 1px solid black; */
+    padding: 10px;
+    background-color: #F5F6F7;
+}
+
+header {
+    background-color: #6F42C1;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+header h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+
+
+header p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.block--one {
+    width: 100%;
+    height: 380px;
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:5px ;
+}
+
+.update--block {
+    margin: 20px 0;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.profile {
+    width: 50px;
+    height: 50px;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 10px;
+}
+
+.info--block-title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+
+.info--block-hero {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.profile-second {
+    background-color: palevioletred;
+}
+
+.profile-third {
+    background-color: #6F42C1;
+}
+
+.all--updates {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007BFF;
+    display: flex;
+    margin-top: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.block--second {
+    width: 100%;
+    height: 380px;
+    background-color: #fff;
+    margin: 15px 0;
+    padding: 15px;
+}
+
+.flex {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.recent {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.blue {
+    background-color: #007BFF;
+}
