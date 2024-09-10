@@ -43,7 +43,7 @@ nav a:hover {
     padding-top: 30px;
 }
 .hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
+    background: url('../hero.avif') no-repeat center center/cover;
     height: 400px;
     display: flex;
     align-items: center;
