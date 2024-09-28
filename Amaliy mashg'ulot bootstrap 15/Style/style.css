@@ -1,0 +1,20 @@
+.navbar {
+    background: #0D243F;
+}
+
+.navbar-brand {
+    width: 200px;
+}
+
+.search-section {
+    display: flex;
+    height: 400px;
+    background-image: url(../hoVj2lYW3i7oMd1o7bPQRZd1lk1.webp);
+    background-size: cover;
+    align-items: center;
+}
+
+.rounded {
+    background: rgb(0, 255, 57);
+    background: linear-gradient(90deg, rgba(0, 255, 57, 1) 0%, rgba(0, 255, 59, 1) 42%, rgba(0, 212, 255, 1) 74%);
+}
